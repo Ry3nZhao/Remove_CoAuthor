@@ -7,7 +7,7 @@
 class Rmai < Formula
   desc "Remove AI co-author trailers and related markers from Git history"
   homepage "https://github.com/Ry3nZhao/Remove_CoAuthor"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
   head "https://github.com/Ry3nZhao/Remove_CoAuthor.git", branch: "main"
 
@@ -15,23 +15,23 @@ class Rmai < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Ry3nZhao/Remove_CoAuthor/releases/download/v0.1.1/rmai-aarch64-apple-darwin.tar.gz"
-      sha256 "d3cbefa3b32d69f338b63ee3aff6b66b0ab9ab35e96e03049520bd2c506d621d"
+      url "https://github.com/Ry3nZhao/Remove_CoAuthor/releases/download/v0.1.2/rmai-aarch64-apple-darwin.tar.gz"
+      sha256 "48bcf58c6f4b4841e048ff0e1e8142e50810ed021aebe9d6942af75976814ad7"
     end
     on_intel do
-      url "https://github.com/Ry3nZhao/Remove_CoAuthor/releases/download/v0.1.1/rmai-x86_64-apple-darwin.tar.gz"
-      sha256 "e617642d469b15fb1cd7830ebc56937a43245691c09d2e0c971575668bbff336"
+      url "https://github.com/Ry3nZhao/Remove_CoAuthor/releases/download/v0.1.2/rmai-x86_64-apple-darwin.tar.gz"
+      sha256 "631fb4f8b1c5a426d78f22298e03a954d26825d37d154a49e0a4e7e4cc5d6fbd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Ry3nZhao/Remove_CoAuthor/releases/download/v0.1.1/rmai-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "867f13f930887ae480b4f70358adfed9dcb0afaea3c1bcbee33d2519a4bdfe61"
+      url "https://github.com/Ry3nZhao/Remove_CoAuthor/releases/download/v0.1.2/rmai-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f9208fe2e37699e9b9a7d4faea8f5f57f9639c8e2988e1384befb26d4d3fe11e"
     end
     on_intel do
-      url "https://github.com/Ry3nZhao/Remove_CoAuthor/releases/download/v0.1.1/rmai-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "91d8fb82a4065ba60807d7f3d9b92dcb79ccd961d19ef0f420b87eaa31f0bcea"
+      url "https://github.com/Ry3nZhao/Remove_CoAuthor/releases/download/v0.1.2/rmai-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c2f7e92a76edb7488cf7845bf708add052ee8683ef75cab5f2c8d3033dbc6834"
     end
   end
 
