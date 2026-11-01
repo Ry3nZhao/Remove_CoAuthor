@@ -1,6 +1,6 @@
 [package]
 name = "rmai"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Remove AI co-author trailers and related markers from Git history"
 license = "MIT"

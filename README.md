@@ -10,14 +10,11 @@ Remove AI co-author trailers and related markers (Claude, Codex, Cursor, Copilot
 
 ```bash
 brew tap Ry3nZhao/Remove_CoAuthor https://github.com/Ry3nZhao/Remove_CoAuthor
+brew trust ry3nzhao/remove_coauthor   # required by newer Homebrew for third-party taps
 brew install rmai
 ```
 
-Before the first binary release, install from source HEAD:
-
-```bash
-brew install --HEAD Ry3nZhao/Remove_CoAuthor/rmai
-```
+Note: third-party taps do not appear in default `brew search`; use the tap above. Install from source HEAD with `brew install --HEAD rmai` after tapping.
 
 ### Cargo / from source
 

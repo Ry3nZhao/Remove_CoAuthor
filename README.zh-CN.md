@@ -10,14 +10,11 @@
 
 ```bash
 brew tap Ry3nZhao/Remove_CoAuthor https://github.com/Ry3nZhao/Remove_CoAuthor
+brew trust ry3nzhao/remove_coauthor   # 新版 Homebrew 安装第三方 tap 需要先信任
 brew install rmai
 ```
 
-若尚未发布二进制包，可从源码 HEAD 安装：
-
-```bash
-brew install --HEAD Ry3nZhao/Remove_CoAuthor/rmai
-```
+说明：第三方 tap 不会出现在默认的 `brew search` 结果里，需按上面方式添加 tap。源码 HEAD 安装：tap 之后执行 `brew install --HEAD rmai`。
 
 ### Cargo / 源码
 
