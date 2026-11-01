@@ -1,5 +1,36 @@
+# Rust / Cargo
 /target/
 **/*.rs.bk
-.DS_Store
-*.swp
+Cargo.lock.bak
+
+# Release / packaging scratch
 /dist/
+*.tar.gz
+*.sha256
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / local secrets
+.env
+.env.*
+!.env.example
+
+# Test / coverage
+*.profraw
+*.profdata
+/coverage/
+lcov.info
+
+# Misc local
+*.log
+tmp/
+temp/
